@@ -1,0 +1,7 @@
+wp-config.php
+.assets
+.buildpath
+.project
+.settings
+wp-content/uploads/
+wp-content/plugins/wordpress-gallery-plugin/cache/
