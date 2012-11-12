@@ -1,7 +1,11 @@
-wp-config.php
+src/wp-config.php
 .assets
 .buildpath
 .project
 .settings
-wp-content/uploads/
-wp-content/plugins/wordpress-gallery-plugin/cache/
+src/wp-content/uploads/
+src/wp-content/plugins/wordpress-gallery-plugin/cache/
+fabfile.py
+fabfile.pyc
+fabconfig.py
+fabconfig.pyc
