@@ -34,14 +34,21 @@ Tags: black, dark, one-column, two-columns, fixed-width, custom-header, threaded
 
 /************************* GLOBAL STYLES ***************************/
 
-body {
+body,html {
 	color: #eee;
 	background: #111 url(images/bg.jpg) no-repeat center fixed;
+	height: 100%;
+	margin:0px;
+    padding:0px;
 }
 .container-inner {
 	width: 950px;
 	margin: 0 auto;
 	padding: 1.75em 20px 1em 20px;
+	height:100%;
+	min-height: 800px;
+	overflow:visible;
+	
 }
 .container {
 	width: 990px;
@@ -398,7 +405,9 @@ h6.underlined {
 
 /* Footer */
 #footer-wrap {
-	background: #000;;
+	/*background: #000;*/
+	background: url(images/repeater.png) repeat;
+	
 }
 
 #footer {
